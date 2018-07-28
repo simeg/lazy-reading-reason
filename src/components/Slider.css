@@ -1,0 +1,35 @@
+/*
+ * Slider
+ * Generated on: http://danielstern.ca/range.css/#/
+ */
+
+input[type=range].slider {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 8.45px 0;
+}
+input[type=range].slider:focus {
+  outline: none;
+}
+input[type=range].slider::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 14px;
+  cursor: pointer;
+  background: #51424c;
+  border-radius: 0;
+  border: 0 solid #FC3868;
+}
+input[type=range].slider::-webkit-slider-thumb {
+  box-shadow: 0 0 1px #670000, 0 0 0 #810000;
+  border: 0 solid #ff1e00;
+  height: 28px;
+  width: 28px;
+  border-radius: 50px;
+  background: #fc3868;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px;
+}
+input[type=range].slider:focus::-webkit-slider-runnable-track {
+  background: #63515d;
+}

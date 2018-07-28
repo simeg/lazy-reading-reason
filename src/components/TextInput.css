@@ -1,0 +1,17 @@
+.hide {
+    visibility: hidden;
+}
+
+#textarea-input {
+    background: none;
+    border-radius: 4px;
+    border: 2px #FF3366 solid;
+    color: #e5e5e5;
+    font-size: 16px;
+    height: 200px;
+    margin-bottom: 3px;
+    outline: none;
+    padding: 10px;
+    resize: none;
+    width: 100%;
+}
